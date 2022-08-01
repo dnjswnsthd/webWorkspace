@@ -45,7 +45,7 @@ public class ServletLifeCycleTest2 extends HttpServlet {
 		count = 1004;
 		out.println("<a href=life2.jsp?cnt=" + count + ">life2.jsp</a>");
 		// 브라우저로 일단 응답을 하지않고 ...서버안에서 바로 jsp로 연결....응답을 jsp가 한다.
-//		request.getRequestDispatcher("life2.jsp?cnt=" + count).forward(request, response);;
+		request.getRequestDispatcher("life2.jsp?cnt=" + count).forward(request, response);;
 		out.close();
 	}
 }
