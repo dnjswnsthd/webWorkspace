@@ -16,7 +16,7 @@ public interface MemberDAO {
 	//비지니스 로직...
 	void registerMember(MemberVO vo) throws SQLException;
 	ArrayList<MemberVO> showAllMember() throws SQLException;
-	MemberVO findByIdMember(String id)throws SQLException;	
+	MemberVO findByIdMember(String id)throws SQLException;
 	
 }
 
