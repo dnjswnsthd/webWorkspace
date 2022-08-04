@@ -73,7 +73,7 @@ body {
 			</tr>
 		</thead>
 		<tbody>
-			<c:forEach var="list" items="${list}">
+			<c:forEach var="list" items="${list}" >
 				<tr>
 				<td>${list.isbn}</td>
 				<td>${list.title}</td>
